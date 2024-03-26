@@ -4,8 +4,8 @@
 name: 디스코드 알림봇
 
 on:
-  schedule: # UTC+9 기준 22시 실행
-    - cron:  "0 14 * * *"
+  schedule: # UTC+9 기준 11시 실행
+    - cron:  "0 02 * * *"
 
 jobs:
   message:
